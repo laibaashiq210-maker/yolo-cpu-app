@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# YOLO model weights (auto-downloaded on first run — don't commit large binaries)
+*.pt
+
+# Generated tracker config
+custom_bytetrack.yaml
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+
+# Temp / output videos
+*.mp4
+!**/sample_*.mp4
